@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-30T22:04:14 ICT" name="Default suite" finished-at="2024-10-30T22:04:22 ICT" duration-ms="8373">
+  <suite started-at="2024-11-03T23:30:29 ICT" name="Default suite" finished-at="2024-11-03T23:30:32 ICT" duration-ms="2749">
     <groups>
     </groups>
-    <test started-at="2024-10-30T22:04:14 ICT" name="Default test" finished-at="2024-10-30T22:04:22 ICT" duration-ms="8373">
-      <class name="automation.testsuite.practiceXpathDay8">
-        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.practiceXpathDay8@6bd61f98]" started-at="2024-10-30T22:04:14 ICT" name="openChrome" finished-at="2024-10-30T22:04:22 ICT" duration-ms="8252" status="PASS">
+    <test started-at="2024-11-03T23:30:29 ICT" name="Default test" finished-at="2024-11-03T23:30:32 ICT" duration-ms="2749">
+      <class name="automation.testsuite.Google">
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.Google@6bd61f98]" started-at="2024-11-03T23:30:29 ICT" name="openChrome" finished-at="2024-11-03T23:30:32 ICT" duration-ms="2667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChrome -->
-        <test-method signature="getLocatorAutomationfc()[pri:0, instance:automation.testsuite.practiceXpathDay8@6bd61f98]" started-at="2024-10-30T22:04:22 ICT" name="getLocatorAutomationfc" finished-at="2024-10-30T22:04:22 ICT" duration-ms="76" status="PASS">
+        <test-method signature="getGoogle()[pri:0, instance:automation.testsuite.Google@6bd61f98]" started-at="2024-11-03T23:30:32 ICT" name="getGoogle" finished-at="2024-11-03T23:30:32 ICT" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getLocatorAutomationfc -->
-      </class> <!-- automation.testsuite.practiceXpathDay8 -->
+        </test-method> <!-- getGoogle -->
+      </class> <!-- automation.testsuite.Google -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
