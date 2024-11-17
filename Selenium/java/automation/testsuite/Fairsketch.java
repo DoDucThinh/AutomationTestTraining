@@ -15,7 +15,7 @@ public class Fairsketch extends CommonBase{
 
 	@Test
 	public void getFairsketch() {
-		WebElement testEvent = driver.findElement(By.xpath("//span[contains(text(),' Industry Panel Discussion')]/ancestor::td[@data-date='2024-11-12']"));
+		WebElement testEvent = driver.findElement(By.xpath("//td[@data-date='2024-11-12']//span[text()=' Industry Panel Discussion']"));
 		System.out.println("This is event: " + testEvent);
 	}
 	

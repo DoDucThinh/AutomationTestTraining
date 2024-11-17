@@ -27,4 +27,5 @@ public class Demoqa extends CommonBase {
 		WebElement buttonNewUser = driver.findElement(By.xpath("//button[@id='newUser']"));
 		System.out.println("New User button is: " + buttonNewUser);
 	}
+	
 }
