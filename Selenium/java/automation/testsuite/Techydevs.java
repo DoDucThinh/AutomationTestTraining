@@ -18,10 +18,10 @@ public class Techydevs extends CommonBase{
 		WebElement slideTravels = driver.findElement(By.xpath("//h2[contains(text(),'What are you interested in')]/descendant::b[text()='Travels']"));
 		System.out.println("This is slide Travels" + slideTravels);
 		
-		WebElement selectACountry = driver.findElement(By.xpath("//span[text()='Select a Country']"));
+		WebElement selectACountry = driver.findElement(By.xpath("//option[text()='Select a Country']/ancestor::select"));
 		System.out.println("This is drop list down Select a Country" + selectACountry);
 		
-		WebElement selectACategory = driver.findElement(By.xpath("//span[text()='Select a Category']/ancestor::a"));
+		WebElement selectACategory = driver.findElement(By.xpath("//option[text()='Select a Category']/ancestor::select"));
 		System.out.println("This is deop list down Select a Category" + selectACategory);
 	}
 }

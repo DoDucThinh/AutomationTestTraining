@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-17T13:49:54 ICT" name="Default suite" finished-at="2024-11-17T13:49:57 ICT" duration-ms="3382">
+  <suite started-at="2024-11-19T23:33:57 ICT" name="Default suite" finished-at="2024-11-19T23:34:06 ICT" duration-ms="9820">
     <groups>
     </groups>
-    <test started-at="2024-11-17T13:49:54 ICT" name="Default test" finished-at="2024-11-17T13:49:57 ICT" duration-ms="3382">
-      <class name="automation.testsuite.Techydevs">
-        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.Techydevs@6bd61f98]" started-at="2024-11-17T13:49:54 ICT" name="openChrome" finished-at="2024-11-17T13:49:57 ICT" duration-ms="3281" status="PASS">
+    <test started-at="2024-11-19T23:33:57 ICT" name="Default test" finished-at="2024-11-19T23:34:06 ICT" duration-ms="9820">
+      <class name="automation.testsuite.GlobalSQA">
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.GlobalSQA@6bd61f98]" started-at="2024-11-19T23:33:57 ICT" name="openChrome" finished-at="2024-11-19T23:34:01 ICT" duration-ms="4546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChrome -->
-        <test-method signature="getTechydevs()[pri:0, instance:automation.testsuite.Techydevs@6bd61f98]" started-at="2024-11-17T13:49:57 ICT" name="getTechydevs" finished-at="2024-11-17T13:49:57 ICT" duration-ms="72" status="PASS">
+        <test-method signature="chooseCountryOption()[pri:0, instance:automation.testsuite.GlobalSQA@6bd61f98]" started-at="2024-11-19T23:34:01 ICT" name="chooseCountryOption" finished-at="2024-11-19T23:34:06 ICT" duration-ms="5245" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTechydevs -->
-      </class> <!-- automation.testsuite.Techydevs -->
+        </test-method> <!-- chooseCountryOption -->
+      </class> <!-- automation.testsuite.GlobalSQA -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
