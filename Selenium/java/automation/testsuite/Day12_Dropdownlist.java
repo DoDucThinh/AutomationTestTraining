@@ -2,6 +2,7 @@ package automation.testsuite;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -23,7 +24,8 @@ public class Day12_Dropdownlist extends CommonBase {
 		courseDropdown.selectByVisibleText(" AWS");
 		String text1 = courseDropdown.getFirstSelectedOption().getText();
 		System.out.println("courseDropdown.getFirstSelectedOption: " + text1);
-	
+		
+		
 		//Cach2: SelectByValue
 		courseDropdown.selectByValue("https://codestar.vn/product-category/lap-trinh-web/");
 		String text2 = courseDropdown.getFirstSelectedOption().getText();
@@ -34,5 +36,10 @@ public class Day12_Dropdownlist extends CommonBase {
 		String text3 = courseDropdown.getFirstSelectedOption().getText();
 		System.out.println("courseDropdown.getFirstSelectedOption: " + text3);
 		
+	}
+	
+	@AfterMethod
+	public void closeBrowser() {
+		driver.close();
 	}
 }
