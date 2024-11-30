@@ -6,5 +6,6 @@ public class CT_PageURL {
 	public static String codeStarCourse = "https://codestar.vn/product-category/aws/";
 	public static String globalSQA = "https://www.globalsqa.com/demo-site/select-dropdown-menu/";
 	public static String aladaURL = "https://alada.vn/tai-khoan/dang-nhap.html";
-	public static String crmstarURL = "https://test-system.crmstar.vn/";
+	public static String crmstarURL = "http://test-system.crmstar.vn/";
+	public static String aladaBTVNB14 = "https://alada.vn/";
 }

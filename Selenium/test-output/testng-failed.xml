@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.BTVN_B13_Crmstar_LoginTest">
+      <class name="automation.testsuite.BTVN_B14_Alada_EditInformationTest">
         <methods>
-          <include name="logout"/>
-          <include name="openBrower"/>
+          <include name="EditPasswordSuccessfully"/>
+          <include name="openFireFox"/>
         </methods>
-      </class> <!-- automation.testsuite.BTVN_B13_Crmstar_LoginTest -->
+      </class> <!-- automation.testsuite.BTVN_B14_Alada_EditInformationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
