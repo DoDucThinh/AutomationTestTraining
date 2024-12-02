@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.BTVN_B14_Alada_EditInformationTest">
+      <class name="automation.testsuite.Tedu_CapNhapMatKhauTest">
         <methods>
-          <include name="EditPasswordSuccessfully"/>
           <include name="openFireFox"/>
+          <include name="LoginSuccessfully"/>
+          <include name="UpdatePasswordSuccessfully"/>
         </methods>
-      </class> <!-- automation.testsuite.BTVN_B14_Alada_EditInformationTest -->
+      </class> <!-- automation.testsuite.Tedu_CapNhapMatKhauTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

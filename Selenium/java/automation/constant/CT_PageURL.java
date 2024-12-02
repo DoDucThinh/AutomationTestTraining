@@ -8,4 +8,5 @@ public class CT_PageURL {
 	public static String aladaURL = "https://alada.vn/tai-khoan/dang-nhap.html";
 	public static String crmstarURL = "http://test-system.crmstar.vn/";
 	public static String aladaBTVNB14 = "https://alada.vn/";
+	public static String tedu = "https://tedu.com.vn/";
 }
