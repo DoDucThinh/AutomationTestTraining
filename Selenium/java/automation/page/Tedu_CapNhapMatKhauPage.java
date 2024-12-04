@@ -31,6 +31,11 @@ public class Tedu_CapNhapMatKhauPage {
 	WebElement textNhapLaiMatKhau;
 	@FindBy(xpath = "//input[@value='Cập nhật']")
 	WebElement btnCapNhap;
+	//search
+	@FindBy(xpath = "//input[@class='autosearch-input form-control']")
+	WebElement textSearch;
+	@FindBy(xpath = "//button[@class='button-search btn btn-primary']")
+	WebElement btnSearch;
 	
 	public Tedu_CapNhapMatKhauPage(WebDriver driver) {
 		super();
@@ -58,6 +63,12 @@ public class Tedu_CapNhapMatKhauPage {
 		textMatKhauMoi.sendKeys(newPassword);
 		textNhapLaiMatKhau.sendKeys(newPassword);
 		btnCapNhap.click();
+	}
+	
+	public void search(String valueSearch) {
+		textSearch.clear();
+		textSearch.sendKeys(valueSearch);
+		btnSearch.click();
 	}
 	
 	

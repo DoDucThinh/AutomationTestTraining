@@ -14,7 +14,7 @@ import automation.page.Tedu_CapNhapMatKhauPage;
 
 public class Tedu_CapNhapMatKhauTest extends CommonBase{
 	public Tedu_CapNhapMatKhauPage teduPage;
-	String currentPassword = "1234566";
+	String currentPassword = "1234564126311431";
 	@BeforeMethod
 	public void openFireFox() {
 		driver = initChromeDriver(CT_PageURL.tedu);
@@ -33,6 +33,7 @@ public class Tedu_CapNhapMatKhauTest extends CommonBase{
 		Thread.sleep(3000);
 		assertTrue(driver.findElement(By.xpath("//div[text()='Đổi mật khẩu thành công. Mời bạn đăng nhập lại.']")).isDisplayed());
 		currentPassword = newPassword;
+		System.out.println(currentPassword);
 	}
 	
 	@Test(priority = 2)
@@ -42,7 +43,15 @@ public class Tedu_CapNhapMatKhauTest extends CommonBase{
 		Thread.sleep(3000);
 		System.out.println(currentPassword);
 		teduPage.LoginPage("thinhthinh1703@gmail.com", currentPassword);
-		assertTrue(driver.findElement(By.xpath("//a[@title='Tài khoản' and @data-toggle='dropdown']")).isDisplayed());
+		assertTrue(driver.findElement(By.xpath("//a[@title='Tài khoản' and @data-toggle='dropdown']")).isDisplayed());		
+	}
+	
+	@Test(priority = 3)
+	public void SearchSuccessfully() throws InterruptedException {
+		LoginSuccessfully();
+		teduPage.search("ASP Net");
+		Thread.sleep(3000);
+		assertTrue(driver.findElement(By.xpath("//a[text()='Bài 52: Gửi phản hồi và gửi mail trong ASP NET sử dụng SMTP']")).isDisplayed());
 	}
 
 }

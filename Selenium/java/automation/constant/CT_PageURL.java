@@ -9,4 +9,5 @@ public class CT_PageURL {
 	public static String crmstarURL = "http://test-system.crmstar.vn/";
 	public static String aladaBTVNB14 = "https://alada.vn/";
 	public static String tedu = "https://tedu.com.vn/";
+	public static String demoGuru = "https://demo.guru99.com/test/";
 }

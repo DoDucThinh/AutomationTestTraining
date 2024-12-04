@@ -6,8 +6,7 @@
       <class name="automation.testsuite.Tedu_CapNhapMatKhauTest">
         <methods>
           <include name="openFireFox"/>
-          <include name="LoginSuccessfully"/>
-          <include name="UpdatePasswordSuccessfully"/>
+          <include name="SearchSuccessfully"/>
         </methods>
       </class> <!-- automation.testsuite.Tedu_CapNhapMatKhauTest -->
     </classes>
