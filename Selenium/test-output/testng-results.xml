@@ -1,53 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-04T13:39:26 ICT" name="Default suite" finished-at="2024-12-04T13:40:28 ICT" duration-ms="61042">
+  <suite started-at="2024-12-05T22:48:49 ICT" name="Default suite" finished-at="2024-12-05T22:48:57 ICT" duration-ms="7078">
     <groups>
     </groups>
-    <test started-at="2024-12-04T13:39:26 ICT" name="Default test" finished-at="2024-12-04T13:40:28 ICT" duration-ms="61042">
-      <class name="automation.testsuite.Tedu_CapNhapMatKhauTest">
-        <test-method is-config="true" signature="openFireFox()[pri:0, instance:automation.testsuite.Tedu_CapNhapMatKhauTest@72e5a8e]" started-at="2024-12-04T13:39:27 ICT" name="openFireFox" finished-at="2024-12-04T13:39:29 ICT" duration-ms="2821" status="PASS">
+    <test started-at="2024-12-05T22:48:49 ICT" name="Default test" finished-at="2024-12-05T22:48:57 ICT" duration-ms="7078">
+      <class name="automation.testsuite.BTVN_Buoi16_DemoGuruAlertPage">
+        <test-method is-config="true" signature="openFireFox()[pri:0, instance:automation.testsuite.BTVN_Buoi16_DemoGuruAlertPage@942a29c]" started-at="2024-12-05T22:48:50 ICT" name="openFireFox" finished-at="2024-12-05T22:48:56 ICT" duration-ms="6237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openFireFox -->
-        <test-method signature="LoginSuccessfully()[pri:2, instance:automation.testsuite.Tedu_CapNhapMatKhauTest@72e5a8e]" started-at="2024-12-04T13:39:29 ICT" name="LoginSuccessfully" finished-at="2024-12-04T13:39:37 ICT" duration-ms="7181" status="PASS">
+        <test-method signature="AlertPractise()[pri:0, instance:automation.testsuite.BTVN_Buoi16_DemoGuruAlertPage@942a29c]" started-at="2024-12-05T22:48:56 ICT" name="AlertPractise" finished-at="2024-12-05T22:48:57 ICT" duration-ms="810" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginSuccessfully -->
-        <test-method is-config="true" signature="openFireFox()[pri:0, instance:automation.testsuite.Tedu_CapNhapMatKhauTest@72e5a8e]" started-at="2024-12-04T13:39:37 ICT" name="openFireFox" finished-at="2024-12-04T13:39:39 ICT" duration-ms="2048" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openFireFox -->
-        <test-method signature="SearchSuccessfully_validValue()[pri:3, instance:automation.testsuite.Tedu_CapNhapMatKhauTest@72e5a8e]" started-at="2024-12-04T13:39:39 ICT" name="SearchSuccessfully_validValue" finished-at="2024-12-04T13:39:49 ICT" duration-ms="10548" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchSuccessfully_validValue -->
-        <test-method is-config="true" signature="openFireFox()[pri:0, instance:automation.testsuite.Tedu_CapNhapMatKhauTest@72e5a8e]" started-at="2024-12-04T13:39:49 ICT" name="openFireFox" finished-at="2024-12-04T13:39:51 ICT" duration-ms="2064" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openFireFox -->
-        <test-method signature="SearchSuccessfully_keywordNoResults()[pri:4, instance:automation.testsuite.Tedu_CapNhapMatKhauTest@72e5a8e]" started-at="2024-12-04T13:39:51 ICT" name="SearchSuccessfully_keywordNoResults" finished-at="2024-12-04T13:40:02 ICT" duration-ms="10736" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchSuccessfully_keywordNoResults -->
-        <test-method is-config="true" signature="openFireFox()[pri:0, instance:automation.testsuite.Tedu_CapNhapMatKhauTest@72e5a8e]" started-at="2024-12-04T13:40:02 ICT" name="openFireFox" finished-at="2024-12-04T13:40:04 ICT" duration-ms="2089" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openFireFox -->
-        <test-method signature="SearchSuccessfully_emptyValue()[pri:5, instance:automation.testsuite.Tedu_CapNhapMatKhauTest@72e5a8e]" started-at="2024-12-04T13:40:04 ICT" name="SearchSuccessfully_emptyValue" finished-at="2024-12-04T13:40:15 ICT" duration-ms="10651" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchSuccessfully_emptyValue -->
-        <test-method is-config="true" signature="openFireFox()[pri:0, instance:automation.testsuite.Tedu_CapNhapMatKhauTest@72e5a8e]" started-at="2024-12-04T13:40:15 ICT" name="openFireFox" finished-at="2024-12-04T13:40:17 ICT" duration-ms="2113" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openFireFox -->
-        <test-method signature="SearchSuccessfully_specialCharacters()[pri:6, instance:automation.testsuite.Tedu_CapNhapMatKhauTest@72e5a8e]" started-at="2024-12-04T13:40:17 ICT" name="SearchSuccessfully_specialCharacters" finished-at="2024-12-04T13:40:28 ICT" duration-ms="10751" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchSuccessfully_specialCharacters -->
-      </class> <!-- automation.testsuite.Tedu_CapNhapMatKhauTest -->
+        </test-method> <!-- AlertPractise -->
+      </class> <!-- automation.testsuite.BTVN_Buoi16_DemoGuruAlertPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

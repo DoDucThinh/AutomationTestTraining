@@ -10,4 +10,7 @@ public class CT_PageURL {
 	public static String aladaBTVNB14 = "https://alada.vn/";
 	public static String tedu = "https://tedu.com.vn/";
 	public static String demoGuru = "https://demo.guru99.com/test/";
+	public static String demoAlert = "https://demo.automationtesting.in/Alerts.html";
+	public static String seleniumPratise = "http://seleniumpractise.blogspot.com/2019/01/alert-demo.html";
+	public static String demoGuruAlert = "https://demo.guru99.com/test/delete_customer.php";
 }

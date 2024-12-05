@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.Tedu_CapNhapMatKhauTest">
+      <class name="automation.testsuite.BTVN_Buoi16_DemoGuruAlertPage">
         <methods>
+          <include name="AlertPractise"/>
           <include name="openFireFox"/>
-          <include name="SearchSuccessfully"/>
         </methods>
-      </class> <!-- automation.testsuite.Tedu_CapNhapMatKhauTest -->
+      </class> <!-- automation.testsuite.BTVN_Buoi16_DemoGuruAlertPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
