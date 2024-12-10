@@ -33,7 +33,7 @@ public class BTVN_Buoi16_DemoGuruAlertPage extends CommonBase{
 		Alert alert2 = wait.until(ExpectedConditions.alertIsPresent());
 		String actualMessage = alert2.getText();
 		String expectedMessage = "Customer Successfully Delete!";
-		assertEquals(actualMessage , expectedMessage, "Alert không đúng");
+		assertEquals(actualMessage , expectedMessage, "Alert message không đúng");
 		
 		alert2.accept();
 		String curruntURL = driver.getCurrentUrl();

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-05T22:48:49 ICT" name="Default suite" finished-at="2024-12-05T22:48:57 ICT" duration-ms="7078">
+  <suite started-at="2024-12-10T23:12:09 ICT" name="Default suite" finished-at="2024-12-10T23:12:22 ICT" duration-ms="12752">
     <groups>
     </groups>
-    <test started-at="2024-12-05T22:48:49 ICT" name="Default test" finished-at="2024-12-05T22:48:57 ICT" duration-ms="7078">
-      <class name="automation.testsuite.BTVN_Buoi16_DemoGuruAlertPage">
-        <test-method is-config="true" signature="openFireFox()[pri:0, instance:automation.testsuite.BTVN_Buoi16_DemoGuruAlertPage@942a29c]" started-at="2024-12-05T22:48:50 ICT" name="openFireFox" finished-at="2024-12-05T22:48:56 ICT" duration-ms="6237" status="PASS">
+    <test started-at="2024-12-10T23:12:09 ICT" name="Default test" finished-at="2024-12-10T23:12:22 ICT" duration-ms="12752">
+      <class name="automation.testsuite.BTNVN_Buoi17_B2_IframeZaloTest">
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.BTNVN_Buoi17_B2_IframeZaloTest@1ed6388a]" started-at="2024-12-10T23:12:09 ICT" name="openChrome" finished-at="2024-12-10T23:12:13 ICT" duration-ms="4323" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openFireFox -->
-        <test-method signature="AlertPractise()[pri:0, instance:automation.testsuite.BTVN_Buoi16_DemoGuruAlertPage@942a29c]" started-at="2024-12-05T22:48:56 ICT" name="AlertPractise" finished-at="2024-12-05T22:48:57 ICT" duration-ms="810" status="PASS">
+        </test-method> <!-- openChrome -->
+        <test-method signature="messengerIframe()[pri:1, instance:automation.testsuite.BTNVN_Buoi17_B2_IframeZaloTest@1ed6388a]" started-at="2024-12-10T23:12:13 ICT" name="messengerIframe" finished-at="2024-12-10T23:12:22 ICT" duration-ms="8399" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AlertPractise -->
-      </class> <!-- automation.testsuite.BTVN_Buoi16_DemoGuruAlertPage -->
+        </test-method> <!-- messengerIframe -->
+      </class> <!-- automation.testsuite.BTNVN_Buoi17_B2_IframeZaloTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

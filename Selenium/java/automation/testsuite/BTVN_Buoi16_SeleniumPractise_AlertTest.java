@@ -29,7 +29,7 @@ public class BTVN_Buoi16_SeleniumPractise_AlertTest extends CommonBase{
         Alert alert = driver.switchTo().alert();
 		String actualMessage = alert.getText();
 		String expectedMessage = "Welcome to Selenium WebDriver Tutorials";
-		assertEquals(actualMessage , expectedMessage, "Alert không đúng");
+		assertEquals(actualMessage , expectedMessage, "Alert message không đúng");
 		
 		alert.accept();
 	}

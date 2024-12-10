@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -82,5 +83,12 @@ public class CommonBase {
 		WebElement element = getElementPresentDOM(locator);
 		element.clear();
 		element.sendKeys(value);
+	}
+	
+	//scroll
+	public void scrollToElement(By locator) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		WebElement element = getElementPresentDOM(locator);
+		js.executeScript("arguments[0].scrollIntoView(true)", element);
 	}
 }
