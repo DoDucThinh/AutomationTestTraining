@@ -4,6 +4,7 @@ import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import automation.common.CommonBase;
@@ -16,11 +17,18 @@ public class Day16_CodeStar_QLKLVTest extends CommonBase{
 	public Day16_CodeStar_QLKLVPage quanly;
 	
 	@BeforeMethod
-	public void openFireFox() {
-		driver = initFireFox(CT_PageURL.crmstarURL);
+	@Parameters("browser")
+	public void openBrowser(String browserName) {
+		setupDriver(browserName);
+		driver.get(CT_PageURL.crmstarURL);
 		login = new Day16_CodeStar_LoginPage(driver);
 		quanly = new Day16_CodeStar_QLKLVPage(driver);
 	}
+//	public void openFireFox() {
+//		driver = initFireFox(CT_PageURL.crmstarURL);
+//		login = new Day16_CodeStar_LoginPage(driver);
+//		quanly = new Day16_CodeStar_QLKLVPage(driver);
+//	}
 	
 	@Test(priority = 1)
 	public void LoginSuccessfully() {

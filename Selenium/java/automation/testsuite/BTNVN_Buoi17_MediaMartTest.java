@@ -20,7 +20,7 @@ public class BTNVN_Buoi17_MediaMartTest extends CommonBase{
 	public void messengerIframe() {
 		if(isElementPresent(By.xpath("//div[text()='Công ty CP MediaMart Việt Nam']")));
 		click(By.xpath("//div[text()='Gửi tin nhắn']"));
-		assertTrue(isElementPresent(By.xpath("//button[text()='Để lại tin nhắn']")));
+		assertTrue(isElementPresent(By.xpath("//button[text()='Tiếp tục chat']")));
 	}
 	
 	//Bai2

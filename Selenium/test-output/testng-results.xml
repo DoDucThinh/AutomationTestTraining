@@ -1,21 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-10T23:12:09 ICT" name="Default suite" finished-at="2024-12-10T23:12:22 ICT" duration-ms="12752">
+  <suite started-at="2024-12-14T23:35:11 ICT" name="TestSuite" finished-at="2024-12-14T23:36:12 ICT" duration-ms="61224">
     <groups>
     </groups>
-    <test started-at="2024-12-10T23:12:09 ICT" name="Default test" finished-at="2024-12-10T23:12:22 ICT" duration-ms="12752">
-      <class name="automation.testsuite.BTNVN_Buoi17_B2_IframeZaloTest">
-        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.BTNVN_Buoi17_B2_IframeZaloTest@1ed6388a]" started-at="2024-12-10T23:12:09 ICT" name="openChrome" finished-at="2024-12-10T23:12:13 ICT" duration-ms="4323" status="PASS">
+    <test started-at="2024-12-14T23:35:11 ICT" name="Regression Test all classes on chrome" finished-at="2024-12-14T23:35:28 ICT" duration-ms="17219">
+      <class name="automation.testsuite.BTVN_Buoi18_DienMayNhapKhauGiaReTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.BTVN_Buoi18_DienMayNhapKhauGiaReTest@242b836]" started-at="2024-12-14T23:35:11 ICT" name="openBrowser" finished-at="2024-12-14T23:35:16 ICT" duration-ms="5292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openChrome -->
-        <test-method signature="messengerIframe()[pri:1, instance:automation.testsuite.BTNVN_Buoi17_B2_IframeZaloTest@1ed6388a]" started-at="2024-12-10T23:12:13 ICT" name="messengerIframe" finished-at="2024-12-10T23:12:22 ICT" duration-ms="8399" status="PASS">
+        </test-method> <!-- openBrowser -->
+        <test-method signature="handleZaloWindowPopup()[pri:0, instance:automation.testsuite.BTVN_Buoi18_DienMayNhapKhauGiaReTest@242b836]" started-at="2024-12-14T23:35:16 ICT" name="handleZaloWindowPopup" finished-at="2024-12-14T23:35:19 ICT" duration-ms="2615" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- messengerIframe -->
-      </class> <!-- automation.testsuite.BTNVN_Buoi17_B2_IframeZaloTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- handleZaloWindowPopup -->
+      </class> <!-- automation.testsuite.BTVN_Buoi18_DienMayNhapKhauGiaReTest -->
+      <class name="automation.testsuite.Day17_BepAnToan_WindowPopup">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.Day17_BepAnToan_WindowPopup@f0c8a99]" started-at="2024-12-14T23:35:19 ICT" name="openBrowser" finished-at="2024-12-14T23:35:23 ICT" duration-ms="3637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="handleMessagerWindowPopup()[pri:0, instance:automation.testsuite.Day17_BepAnToan_WindowPopup@f0c8a99]" started-at="2024-12-14T23:35:23 ICT" name="handleMessagerWindowPopup" finished-at="2024-12-14T23:35:28 ICT" duration-ms="5637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleMessagerWindowPopup -->
+      </class> <!-- automation.testsuite.Day17_BepAnToan_WindowPopup -->
+    </test> <!-- Regression Test all classes on chrome -->
+    <test started-at="2024-12-14T23:35:28 ICT" name="Regression Test all classes on firefox" finished-at="2024-12-14T23:35:51 ICT" duration-ms="22924">
+      <class name="automation.testsuite.BTVN_Buoi18_DienMayNhapKhauGiaReTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.BTVN_Buoi18_DienMayNhapKhauGiaReTest@4be29ed9]" started-at="2024-12-14T23:35:28 ICT" name="openBrowser" finished-at="2024-12-14T23:35:35 ICT" duration-ms="7234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="handleZaloWindowPopup()[pri:0, instance:automation.testsuite.BTVN_Buoi18_DienMayNhapKhauGiaReTest@4be29ed9]" started-at="2024-12-14T23:35:35 ICT" name="handleZaloWindowPopup" finished-at="2024-12-14T23:35:38 ICT" duration-ms="2481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleZaloWindowPopup -->
+      </class> <!-- automation.testsuite.BTVN_Buoi18_DienMayNhapKhauGiaReTest -->
+      <class name="automation.testsuite.Day17_BepAnToan_WindowPopup">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.Day17_BepAnToan_WindowPopup@548d708a]" started-at="2024-12-14T23:35:38 ICT" name="openBrowser" finished-at="2024-12-14T23:35:46 ICT" duration-ms="8020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="handleMessagerWindowPopup()[pri:0, instance:automation.testsuite.Day17_BepAnToan_WindowPopup@548d708a]" started-at="2024-12-14T23:35:46 ICT" name="handleMessagerWindowPopup" finished-at="2024-12-14T23:35:51 ICT" duration-ms="5183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleMessagerWindowPopup -->
+      </class> <!-- automation.testsuite.Day17_BepAnToan_WindowPopup -->
+    </test> <!-- Regression Test all classes on firefox -->
+    <test started-at="2024-12-14T23:35:51 ICT" name="Regression Test all classes on edge" finished-at="2024-12-14T23:36:12 ICT" duration-ms="21041">
+      <class name="automation.testsuite.BTVN_Buoi18_DienMayNhapKhauGiaReTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.BTVN_Buoi18_DienMayNhapKhauGiaReTest@7bba5817]" started-at="2024-12-14T23:35:51 ICT" name="openBrowser" finished-at="2024-12-14T23:35:58 ICT" duration-ms="6388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="handleZaloWindowPopup()[pri:0, instance:automation.testsuite.BTVN_Buoi18_DienMayNhapKhauGiaReTest@7bba5817]" started-at="2024-12-14T23:35:58 ICT" name="handleZaloWindowPopup" finished-at="2024-12-14T23:36:01 ICT" duration-ms="3007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleZaloWindowPopup -->
+      </class> <!-- automation.testsuite.BTVN_Buoi18_DienMayNhapKhauGiaReTest -->
+      <class name="automation.testsuite.Day17_BepAnToan_WindowPopup">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:automation.testsuite.Day17_BepAnToan_WindowPopup@742ff096]" started-at="2024-12-14T23:36:01 ICT" name="openBrowser" finished-at="2024-12-14T23:36:07 ICT" duration-ms="6379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="handleMessagerWindowPopup()[pri:0, instance:automation.testsuite.Day17_BepAnToan_WindowPopup@742ff096]" started-at="2024-12-14T23:36:07 ICT" name="handleMessagerWindowPopup" finished-at="2024-12-14T23:36:12 ICT" duration-ms="5264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleMessagerWindowPopup -->
+      </class> <!-- automation.testsuite.Day17_BepAnToan_WindowPopup -->
+    </test> <!-- Regression Test all classes on edge -->
+  </suite> <!-- TestSuite -->
 </testng-results>

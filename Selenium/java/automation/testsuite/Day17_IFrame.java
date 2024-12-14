@@ -4,6 +4,7 @@ import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import automation.common.CommonBase;
@@ -11,9 +12,14 @@ import automation.constant.CT_PageURL;
 
 public class Day17_IFrame extends CommonBase{
 	@BeforeMethod
-	public void openChrome() {
-		driver = initChromeDriver(CT_PageURL.CODE_STAR);
+	@Parameters("browser")
+	public void openBrowser(String browserName) {
+		setupDriver(browserName);
+		driver.get(CT_PageURL.CODE_STAR);
 	}
+//	public void openChrome() {
+//		driver = initChromeDriver(CT_PageURL.CODE_STAR);
+//	}
 	
 	@Test
 	public void dangKyNhanTuVanLoTrinh_ThatBai_ThieuEmail() {

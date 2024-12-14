@@ -7,6 +7,7 @@ import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import automation.common.CommonBase;
@@ -14,9 +15,14 @@ import automation.constant.CT_PageURL;
 
 public class Day17_PopUpWindowns extends CommonBase{
 	@BeforeMethod
-	public void openFireFox() {
-		driver = initFireFox(CT_PageURL.demoGuroPopUpWindows);
+	@Parameters("browser")
+	public void openBrowser(String browserName) {
+		setupDriver(browserName);
+		driver.get(CT_PageURL.demoGuroPopUpWindows);
 	}
+//	public void openFireFox() {
+//		driver = initFireFox(CT_PageURL.demoGuroPopUpWindows);
+//	}
 	
 	@Test
 	public void handleWindown() {

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.BTNVN_Buoi17_B2_IframeZaloTest">
+      <class name="automation.testsuite.Day17_BepAnToan_WindowPopup">
         <methods>
-          <include name="messengerIframe"/>
-          <include name="openChrome"/>
+          <include name="openFireFox"/>
+          <include name="handleMessagerWindowPopup"/>
         </methods>
-      </class> <!-- automation.testsuite.BTNVN_Buoi17_B2_IframeZaloTest -->
+      </class> <!-- automation.testsuite.Day17_BepAnToan_WindowPopup -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

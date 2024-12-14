@@ -7,6 +7,7 @@ import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import automation.common.CommonBase;
@@ -14,9 +15,14 @@ import automation.constant.CT_PageURL;
 
 public class Day17_BepAnToan_WindowPopup extends CommonBase {
 	@BeforeMethod
-	public void openFireFox() {
-		driver = initChromeDriver(CT_PageURL.BEP_AN_TOAN);
+	@Parameters("browser")
+	public void openBrowser(String browserName) {
+		setupDriver(browserName);
+		driver.get(CT_PageURL.BEP_AN_TOAN);
 	}
+//	public void openFireFox() {
+//		driver = initChromeDriver(CT_PageURL.BEP_AN_TOAN);
+//	}
 
 	@Test
 	public void handleMessagerWindowPopup() {
@@ -37,7 +43,7 @@ public class Day17_BepAnToan_WindowPopup extends CommonBase {
 				type(By.id("pass"), "thinhthinhthinh123");
 				click(By.id("loginbutton"));
 				
-				assertTrue(isElementPresent(By.xpath("//div[text()='Please re-enter your password']")));
+				assertTrue(isElementPresent(By.xpath("//span[text()='Enter the characters you see']")));
 			
 			}
 		}
